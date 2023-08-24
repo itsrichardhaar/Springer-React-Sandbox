@@ -38,7 +38,7 @@ const HeroSection = () => {
                     onMouseleave={onHover}
                     primary='true'
                     dark='true'>
-                        Play Reel {hover ? <ArrowFoward /> : <ArrowRight />}
+                        Play Reel {hover ? <ArrowFoward /> : <ArrowFoward />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
