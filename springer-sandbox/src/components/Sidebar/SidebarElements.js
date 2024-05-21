@@ -20,7 +20,7 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-    color: rgb(47, 220, 120);
+    color: rgb(15, 23, 42);
     transition: 0.2s ease-in-out;
 
     &:hover {
