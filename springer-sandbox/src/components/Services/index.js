@@ -1,7 +1,8 @@
 import React from 'react';
 import Icon1 from '../../images/svg-1.svg';
-import Icon2 from '../../images/svg-3.svg';
+import Icon2 from '../../images/svg-1.svg';
 import Icon3 from '../../images/svg-1.svg';
+import { Button } from '../ButtonElement';
 import {
   ServicesContainer,
   ServicesH1,
@@ -9,7 +10,9 @@ import {
   ServicesCard,
   ServicesIcon,
   ServicesH2,
-  ServicesP
+  ServicesP,
+  ServicesArrow,
+  BtnWrap
 } from './ServicesElements';
 
 const Services = () => {
@@ -17,28 +20,32 @@ const Services = () => {
     <ServicesContainer id='our-work'>
       <ServicesH1>Featured Work</ServicesH1>
       <ServicesWrapper>
-        <ServicesCard>
+        <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer">
+          <ServicesArrow></ServicesArrow>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Design</ServicesH2>
+          <ServicesH2>WordPress</ServicesH2>
           <ServicesP>
-            From small business startups to worldwide corporations, we bring passion and experience to our client's work
+            A modern community college website that utilizes a custom PHP theme and integrates several API's.
           </ServicesP>
         </ServicesCard>
-        <ServicesCard>
+        <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer">
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Marketing</ServicesH2>
+          <ServicesH2>Web Application / React</ServicesH2>
           <ServicesP>
             Discover what makes us the perfect full-service solution for your next step in marketing.
           </ServicesP>
         </ServicesCard>
-        <ServicesCard>
+        <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer"tr>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Branding</ServicesH2>
+          <ServicesH2>API Integration</ServicesH2>
           <ServicesP>
           We craft a comprehensive brand strategy that makes getting to know your brand a breeze for your audience. 
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
+      <BtnWrap>
+        <Button>Learn More</Button>
+      </BtnWrap>
     </ServicesContainer>
   );
 };

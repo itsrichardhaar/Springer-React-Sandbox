@@ -1,12 +1,20 @@
+import { Link } from 'react-router-dom';
+
+
 export const homeObjOne = {
     id: 'about',
     lightBg: true,
     lightText: false,
     lightTextDesc: true,
-    topLine: 'Springer Studios',
-    headline: 'Lets Build a Smarter Experience',
+    topLine: 'Senior Frontend Developer',
+    headline: 'Richard Haar',
     description:
-      'Springer Studios is a brand, design, video, and full-service marketing agency located in Wilmington, NC. We have experienced, rock-star resources to create the very best purpose-driven creative solutions for our awesome clients.',
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+    descriptionTwo: 'Back in 2018, I decided to try and develop a personal website to promote music I was creating. This led me to the rabbit hole of coding and web development. Fast-forward to today, and I\'ve had the privilege of builidng web applications for a number of marketing agencies and freelance clients.',
+    descriptionThree: <>
+    My main focus these days is building accessible user interfaces and experiences for our clients at{' '}
+    <Link class="body-link" to="//www.springerstudios.com/">Springer Studios</Link>. I enjoy the sweet spot where design and development meet. I love when things look good and are well built under the hood. When I\'m not at the computer, I\'m usually outdoors, hanging out with friends.
+  </>,
     buttonLabel: 'Get Started',
     imgStart: false,
     img: require('../../images/svg-1.svg'),
@@ -21,11 +29,11 @@ export const homeObjOne = {
     lightBg: false,
     lightText: false,
     lightTextDesc: true,
-    topLine: 'What We Do',
-    headline: 'Were a Creative Services Agency',
+    topLine: 'Crafting Digital Solutions',
+    headline: 'My Professional Experience',
     description:
       'We design high-quality, cohesive, purpose-driven creative solutions. We’re champions for our clients and passionate every step of the way. We measure our success by the success of our clients, and we absolutely love what we do.',
-    buttonLabel: 'Learn More',
+    buttonLabel: 'View Full Resume',
     imgStart: true,
     img: require('../../images/svg-2.svg'),
     alt: 'what we do',
@@ -35,12 +43,12 @@ export const homeObjOne = {
   };
   
   export const homeObjThree = {
-    id: 'our-team',
+    id: 'contact',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Our Team',
-    headline: 'We Bring Passion and Experience',
+    topLine: 'Let\'s Work Together',
+    headline: 'I combine Passion with Experience',
     description:
       "We create custom design solutions to help our clients succeed. From small business startups to worldwide corporations, we bring passion and experience to our client's work. Explore our services and client work to see if Springer Studios is the right fit for your business.",
     buttonLabel: 'Start Now',

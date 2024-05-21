@@ -37,7 +37,7 @@ const Navbar = ({toggle}) => {
         <Nav scrollNav ={scrollNav}>
             <NavbarContainer>
                 <NavLogo to='/' onClick={toggleHome}>
-                    <img src={require('../../images/Springer_Studios_Logo.png')} alt='NavImage' width={250} />
+                    
                 </NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
@@ -50,6 +50,7 @@ const Navbar = ({toggle}) => {
                         spy={true}
                         exact='true'
                         offset={-80}
+                        ease="easeInOut"
                         >About</NavLinks>
                     </NavItem>
                     <NavItem>
@@ -59,7 +60,8 @@ const Navbar = ({toggle}) => {
                         spy={true}
                         exact='true'
                         offset={-80}
-                        >Services</NavLinks>
+                        ease="easeInOut"
+                        >Experience</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="our-work"
@@ -68,20 +70,17 @@ const Navbar = ({toggle}) => {
                         spy={true}
                         exact='true'
                         offset={-80}
-                        >Our Work</NavLinks>
+                        ease="easeInOut"
+                        >Projects</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="our-team"
+                        <NavLinks to="contact"
                         smooth={true}
                         duration={800}
                         spy={true}
                         exact='true'
                         offset={-80}
-                        >Our Team</NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to="contact"
-                    
+                        ease="easeInOut"
                         >Contact</NavLinks>
                     </NavItem>
                 </NavMenu>
