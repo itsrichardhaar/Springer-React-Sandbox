@@ -34,6 +34,7 @@ const Services = () => {
           </ServicesP>
         </ServicesCard>
         <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer"tr>
+          <ServicesIcon src={Icon3} />
           <ServicesH2>API Integration</ServicesH2>
           <ServicesP>
           We craft a comprehensive brand strategy that makes getting to know your brand a breeze for your audience. 
@@ -41,7 +42,7 @@ const Services = () => {
         </ServicesCard>
       </ServicesWrapper>
       <BtnWrap>
-        <Button>Learn More</Button>
+        <Button id="project-btn">Learn More</Button>
       </BtnWrap>
     </ServicesContainer>
   );
