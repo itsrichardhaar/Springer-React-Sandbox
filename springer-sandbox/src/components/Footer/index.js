@@ -4,7 +4,9 @@ import {
   FaInstagram,
   FaYoutube,
   FaTwitter,
-  FaLinkedin
+  FaLinkedin,
+  FaGithub,
+  FaEnvelope
 } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import {
@@ -31,45 +33,14 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrap>
         <FooterLinksContainer>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Careers</FooterLink>
-              <FooterLink to='/'>Privacy Policy</FooterLink>
-              <FooterLink to='/'>Terms of Service</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <FooterLink to='/'>Contact</FooterLink>
-              <FooterLink to='/'>Support</FooterLink>
-              <FooterLink to='/'>Design</FooterLink>
-              <FooterLink to='/'>Development</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>Videos</FooterLinkTitle>
-              <FooterLink to='/'>Our Reel</FooterLink>
-              <FooterLink to='/'>Ambassadors</FooterLink>
-              <FooterLink to='/'>Agency</FooterLink>
-              <FooterLink to='/'>Influencer</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink to='/'>Instagram</FooterLink>
-              <FooterLink to='/'>Facebook</FooterLink>
-              <FooterLink to='/'>Youtube</FooterLink>
-              <FooterLink to='/'>Linkedin</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
+          
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              Springer Studios
+              Back to Top
             </SocialLogo>
-            <WebsiteRights>Springer Studios © 2022 All rights reserved.</WebsiteRights>
+            <WebsiteRights>Loosely designed in Figma and coded in Visual Studio Code. Built with React and utlizing Styled Compontents, deployed with Vercel. All text is set in the Inter typeface.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
@@ -78,22 +49,22 @@ const Footer = () => {
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink
-                href='//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                href=''
                 target='_blank'
-                aria-label='Youtube'
+                aria-label='Linkedin'
                 rel='noopener noreferrer'
               >
-                <FaYoutube />
+                <FaLinkedin />
               </SocialIconLink>
               <SocialIconLink
                 target='_blank'
-                aria-label='Twitter'
-                href='//www.twitter.com/briandesignz'
+                aria-label='Github'
+                href=''
               >
-                <FaTwitter />
+                <FaGithub />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
-                <FaLinkedin />
+              <SocialIconLink href='mailto:haar.richard@gmail.com' target='_blank' aria-label='Email'>
+                <FaEnvelope />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

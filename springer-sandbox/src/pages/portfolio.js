@@ -15,7 +15,7 @@ import Footer from '../components/Footer';
 
 
 
-const Home = () => {
+const Portfolio = () => {
 
     const [isOpen, setIsOpen] = useState(false)
 
@@ -28,10 +28,6 @@ const Home = () => {
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle} />
         
-        <InfoSection {...homeObjOne}/>
-        <ExperienceSection {...ExperienceObjOne} />
-        <Services />
-       <InfoSection {...homeObjThree} />
        <Footer />
     </>
   );
@@ -39,4 +35,4 @@ const Home = () => {
 
 
 
-export default Home;
+export default Portfolio;

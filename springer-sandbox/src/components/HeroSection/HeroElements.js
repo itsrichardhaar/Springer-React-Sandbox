@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { BsArrowRightShort , BsArrowRight } from 'react-icons/bs';
 
 export const HeroContainer = styled.div`
-    background :#0c0c0c;
+    background: rgb(15 23 42);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,6 @@ export const VideoBg = styled.video`
     object-fit: cover;
     background; #232a34;
 `;
-
 
 export const HeroContent = styled.div`
     z-index: 3;

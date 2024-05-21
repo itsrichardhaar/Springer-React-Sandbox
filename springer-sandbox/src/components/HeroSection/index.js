@@ -27,7 +27,7 @@ const HeroSection = () => {
     <>
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src="https://springercdn.s3.amazonaws.com/video/springerstudios/lets-create-web.mp4" type='video/mp4' />
+                <VideoBg autoPlay loop muted src="#" type='video/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Let's Create</HeroH1>

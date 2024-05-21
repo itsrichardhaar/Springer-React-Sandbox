@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
 
-    background: ${({ scrollNav }) => (scrollNav ? '#fff' : '#fff')};
+    background: ${({ scrollNav }) => (scrollNav ? '#101522' : '#101522')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -17,6 +17,10 @@ export const Nav = styled.nav`
     
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
+    }
+
+    @media screen and (max-width: 768px) {
+        margin-top: 0px;
     }
 `;
 
@@ -76,7 +80,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-    color: #2a302f;
+    color: #fff;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -87,8 +91,8 @@ export const NavLinks = styled(LinkS)`
     letter-spacing: 1.4px;
 
     &.active {
-        color: #c5b32f;
-        border-bottom: 3px solid #c5b32f;
+        color: #2FDC78;
+        border-bottom: 3px solid #2FDC78;
         transition: 0.1s all ease;
     }
 `;

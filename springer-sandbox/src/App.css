@@ -5,8 +5,28 @@
   font-family: 'Inter', sans-serif;
 }
 
-.gIuhMN {
-  padding-right: 40px !important;
+.body-link {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s text-decoration ease;
+}
+
+.body-link:hover {
+  text-decoration: underline !important;
+  transition: 0.3s text-decoration ease;
+}
+
+a {
+  text-decoration: none !important;
+}
+/*
+.card-arrow {
+  position: absolute;
+  margin-left: 200px;
+}
+
+.card-arrow {
+  margin-left: 210px;
 }
 /*
 
