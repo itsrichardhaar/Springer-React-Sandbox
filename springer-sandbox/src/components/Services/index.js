@@ -22,21 +22,18 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer">
           <ServicesArrow></ServicesArrow>
-          <ServicesIcon src={Icon1} />
           <ServicesH2>WordPress</ServicesH2>
           <ServicesP>
             A modern community college website that utilizes a custom PHP theme and integrates several API's.
           </ServicesP>
         </ServicesCard>
         <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer">
-          <ServicesIcon src={Icon2} />
           <ServicesH2>Web Application / React</ServicesH2>
           <ServicesP>
             Discover what makes us the perfect full-service solution for your next step in marketing.
           </ServicesP>
         </ServicesCard>
         <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer"tr>
-          <ServicesIcon src={Icon3} />
           <ServicesH2>API Integration</ServicesH2>
           <ServicesP>
           We craft a comprehensive brand strategy that makes getting to know your brand a breeze for your audience. 
