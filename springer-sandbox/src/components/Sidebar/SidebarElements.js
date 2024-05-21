@@ -20,11 +20,11 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-    color: #2a302f;
+    color: rgb(47, 220, 120);
     transition: 0.2s ease-in-out;
 
     &:hover {
-        color: #00ce1b;
+        color: rgb(47, 220, 120);
         transition: 0.2 ease-in-out;
     }
 `;
