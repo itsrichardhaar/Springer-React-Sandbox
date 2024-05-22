@@ -4,9 +4,9 @@ import './PortfolioSection.css';
 
 const PortfolioSection = () => {
   const projects = [
-    { year: 2023, title: 'Project 1', description: 'Description of Project 1' },
-    { year: 2022, title: 'Project 2', description: 'Description of Project 2' },
-    { year: 2022, title: 'Project 3', description: 'Description of Project 3' },
+    { year: 2023, title: 'Project 1', made: 'Springer Studios', built: 'React', link: 'https://brittanychiang.com/archive' },
+    { year: 2022, title: 'Project 2', made: 'Springer Studios', built: 'React', link: 'https://brittanychiang.com/archive' },
+    { year: 2022, title: 'Project 3', made: 'Springer Studios', built: 'React', link: 'https://brittanychiang.com/archive' },
     // Add more projects as needed
   ];
 
@@ -28,15 +28,19 @@ const PortfolioSection = () => {
           <table>
             <thead>
               <tr>
-                <th>Title</th>
-                <th>Description</th>
+                <th>Project</th>
+                <th>Made at</th>
+                <th>Built with</th>
+                <th>Link</th>
               </tr>
             </thead>
             <tbody>
               {projects.map((project, index) => (
                 <tr key={index}>
                   <td>{project.title}</td>
-                  <td>{project.description}</td>
+                  <td>{project.made}</td>
+                  <td>{project.built}</td>
+                  <td>{project.link}</td>
                 </tr>
               ))}
             </tbody>
