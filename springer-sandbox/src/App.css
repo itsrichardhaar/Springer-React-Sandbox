@@ -22,6 +22,15 @@ a {
 
 #project-btn {
   margin-top: 40px;
+  background: rgb(0, 131, 191);
+  color: #fff;
+  border: 2px solid rgb(0, 131, 191);
+}
+
+#project-btn:hover {
+  color: #fff;
+  border-color: #fff;
+  background: transparent;
 }
 /*
 
