@@ -20,7 +20,7 @@ const PortfolioSection = () => {
   }, {});
 
   return (
-    <div>
+    <div class="portfolio-section">
       {Object.entries(projectsByYear).map(([year, projects]) => (
         <div key={year}>
           <h2>{year}</h2>
