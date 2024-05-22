@@ -50,8 +50,8 @@ export const homeObjOne = {
     topLine: 'Let\'s Work Together',
     headline: 'I combine Passion with Experience',
     description:
-      "We create custom design solutions to help our clients succeed. From small business startups to worldwide corporations, we bring passion and experience to our client's work. Explore our services and client work to see if Springer Studios is the right fit for your business.",
-    buttonLabel: 'Start Now',
+      "I create custom design solutions to help clients succeed. From small business startups to worldwide corporations, we bring passion and experience to our client's work. Feel free to reach out with potential development projects or job opportunities.",
+    buttonLabel: 'Get In Touch',
     imgStart: false,
     img: require('../../images/svg-3.svg'),
     alt: 'our services',
