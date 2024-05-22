@@ -38,7 +38,6 @@ a {
 }
 
 
-/* 
 .portfolio-section {
   max-width: 1200px;
   margin: 0 auto;
@@ -107,7 +106,3 @@ a {
 .portfolio-section td a:hover {
   text-decoration: underline;
 }
-/*
-
- opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')}; */
