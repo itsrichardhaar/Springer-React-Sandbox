@@ -39,12 +39,12 @@ const Services = () => {
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
+      <a href={buttonLink}
+      >
       <BtnWrap>
-        <a href={buttonLink}
-        >
         <Button as="span" id="project-btn">Learn More</Button>
-        </a>
       </BtnWrap>
+      </a>
     </ServicesContainer>
   );
 };
