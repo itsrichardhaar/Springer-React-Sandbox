@@ -9,9 +9,8 @@ import { ExperienceObjOne } from '../components/ExperienceSection/data';
 import Services from '../components/Services';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
+import PortfolioSection from '../components/PortfolioSection/PortfolioSection';
 import Footer from '../components/Footer';
-
-
 
 
 
@@ -27,7 +26,7 @@ const Portfolio = () => {
     <>
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle} />
-        
+        <PortfolioSection />
        <Footer />
     </>
   );
