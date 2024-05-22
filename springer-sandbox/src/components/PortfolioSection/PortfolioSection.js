@@ -1,5 +1,6 @@
 // PortfolioSection.js
 import React from 'react';
+import './PortfolioSection.css';
 
 const PortfolioSection = () => {
   const projects = [
