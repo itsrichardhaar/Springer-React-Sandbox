@@ -66,7 +66,7 @@ export const ServicesArrow = styled.div`
 
 export const ServicesIcon = styled.img`
   height: auto;
-  width: 380px;
+  width: 100%;
   margin-bottom: 20px;
 `;
 
