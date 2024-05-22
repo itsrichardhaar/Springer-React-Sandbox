@@ -25,7 +25,6 @@ const Portfolio = () => {
   return (
     <>
         <Sidebar isOpen={isOpen} toggle={toggle} />
-        <Navbar toggle={toggle} />
         <PortfolioSection />
        <Footer />
     </>
