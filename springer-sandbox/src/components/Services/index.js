@@ -42,7 +42,7 @@ const Services = () => {
       <a href={buttonLink}
       >
       <BtnWrap>
-        <Button as="span" id="project-btn">Learn More</Button>
+        <Button as="span" id="project-btn">View All Projects</Button>
       </BtnWrap>
       </a>
     </ServicesContainer>
