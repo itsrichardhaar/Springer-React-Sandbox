@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon1 from '../../images/Studsvik-1.png';
+import Icon1 from '../../images/Studsvik-2.png';
 import Icon2 from '../../images/svg-1.svg';
 import Icon3 from '../../images/svg-1.svg';
 import { Button } from '../ButtonElement';
