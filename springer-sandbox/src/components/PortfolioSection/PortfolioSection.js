@@ -21,10 +21,10 @@ const PortfolioSection = () => {
 
   return (
     <div class="portfolio-section">
-        <div>
-            <a href="https://www.richardhaar.com/">Richard Haar</a>
+        <div class="return-div">
+            <a class="return-link" href="https://www.richardhaar.com/">Richard Haar</a>
         </div>
-        <div>
+        <div class="portfolio-heading">
             <h1>All Projects</h1>
         </div>
       {Object.entries(projectsByYear).map(([year, projects]) => (

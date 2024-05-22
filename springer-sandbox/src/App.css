@@ -48,7 +48,19 @@ a {
   background: rgb(15, 23, 42);
 }
 
-.portfolio-section h1 {
+.return-div {
+  padding: 20px
+}
+
+.return-link {
+  color: #fff !important;
+}
+
+.portfolio-heading {
+  padding: 20px;
+}
+
+.portfolio-heading h1 {
   color: #fff;
   font-size: 48px;
 }
@@ -62,6 +74,7 @@ a {
 .portfolio-section table {
   width: 100%;
   border-collapse: collapse;
+  padding: 20px;
 }
 
 .portfolio-section th,
