@@ -36,6 +36,8 @@ const InfoSection = ({
   dark,
   dark2
 }) => {
+  const email = "haar.richard@gmail.com";
+  const mailtoLink = `mailto:${email}`;
 
   console.log(primary);
   return (
@@ -50,7 +52,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    href="mailto:haar.richard@gmail.com"
+                    href={mailtoLink}
                     smooth={true}
                     duration={500}
                     spy={true}
