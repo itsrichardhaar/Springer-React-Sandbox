@@ -50,7 +50,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to='home'
+                    href="mailto:haar.richard@gmail.com"
                     smooth={true}
                     duration={500}
                     spy={true}
