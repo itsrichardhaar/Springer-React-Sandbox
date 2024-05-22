@@ -3,6 +3,7 @@ import Icon1 from '../../images/Studsvik-2.png';
 import Icon2 from '../../images/CFCC-2.png';
 import Icon3 from '../../images/svg-1.svg';
 import { Button } from '../ButtonElement';
+import { Link } from 'react-router-dom';
 import {
   ServicesContainer,
   ServicesH1,
@@ -37,7 +38,9 @@ const Services = () => {
         </ServicesCard>
       </ServicesWrapper>
       <BtnWrap>
+        <Link to="/portfolio">
         <Button id="project-btn">Learn More</Button>
+        </Link>
       </BtnWrap>
     </ServicesContainer>
   );
