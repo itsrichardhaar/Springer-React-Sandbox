@@ -34,7 +34,7 @@ a {
 }
 
 #project-btn:after {
-  8px solid #fff;
+  border-left: 8px solid #fff;
 }
 /*
 
