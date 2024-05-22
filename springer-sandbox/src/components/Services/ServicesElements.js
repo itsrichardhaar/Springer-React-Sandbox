@@ -98,7 +98,7 @@ export const ServicesH2 = styled.h2`
 export const ServicesP = styled.p`
   font-size: 1rem;
   text-align: left;
-  color: #fff;
+  color: rgb(148, 163, 184) !important;
   margin-bottom: 20px;
 `;
 
