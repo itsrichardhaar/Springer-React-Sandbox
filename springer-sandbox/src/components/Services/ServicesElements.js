@@ -96,10 +96,11 @@ export const ServicesH2 = styled.h2`
 `;
 
 export const ServicesP = styled.p`
-  font-size: 1rem;
+  font-size: .875rem;
   text-align: left;
   color: rgb(148, 163, 184) !important;
   margin-bottom: 20px;
+  line-height: 1.5;
 `;
 
 export const BtnWrap = styled.div`
