@@ -43,6 +43,8 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  height: 60vh;
+  margin-top: 180px;
 }
 
 .portfolio-section h2 {
