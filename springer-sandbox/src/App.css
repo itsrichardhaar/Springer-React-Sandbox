@@ -32,6 +32,10 @@ a {
   border-color: #fff;
   background: transparent;
 }
+
+#project-btn:after {
+  8px solid #fff;
+}
 /*
 
  opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
