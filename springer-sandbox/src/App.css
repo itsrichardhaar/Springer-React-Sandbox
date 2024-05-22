@@ -36,6 +36,53 @@ a {
 #project-btn:after {
   border-left: 8px solid #fff;
 }
+
+
+/* PortfolioSection.css */
+.portfolio-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.portfolio-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.portfolio-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.portfolio-section th,
+.portfolio-section td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.portfolio-section th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.portfolio-section tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.portfolio-section td {
+  text-align: left;
+}
+
+.portfolio-section td a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.portfolio-section td a:hover {
+  text-decoration: underline;
+}
 /*
 
  opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
