@@ -38,8 +38,10 @@ const Services = () => {
         </ServicesCard>
       </ServicesWrapper>
       <BtnWrap>
-        <Link to="/portfolio" onClick={() => console.log("Button clicked!")}>
-          <Button id="project-btn">Learn More</Button>
+        <Link 
+        to="/portfolio"
+        >
+        <Button id="project-btn">Learn More</Button>
         </Link>
       </BtnWrap>
     </ServicesContainer>
