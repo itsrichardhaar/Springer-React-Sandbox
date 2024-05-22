@@ -32,7 +32,7 @@ const Services = () => {
           <ServicesIcon src={Icon2} />
           <ServicesH2>API Integration</ServicesH2>
           <ServicesP>
-          Site developed for Cape Fear Community College. Built in PHP and integrated with REST APIs to sync and display course sequences from their software. The site also utilizes Bootstrap and JQuery. 
+          Site developed for Cape Fear Community College. Built in PHP and integrated with REST APIs to sync and display course sequences from their software catalog. The site also utilizes Bootstrap and JQuery. 
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
