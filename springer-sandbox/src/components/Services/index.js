@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon1 from '../../images/Studsvik-2.png';
-import Icon2 from '../../images/svg-1.svg';
+import Icon2 from '../../images/CFCC-2.png';
 import Icon3 from '../../images/svg-1.svg';
 import { Button } from '../ButtonElement';
 import {
@@ -29,7 +29,7 @@ const Services = () => {
           </ServicesP>
         </ServicesCard>
         <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer"tr>
-          <ServicesIcon src={Icon1} />
+          <ServicesIcon src={Icon2} />
           <ServicesH2>API Integration</ServicesH2>
           <ServicesP>
           We craft a comprehensive brand strategy that makes getting to know your brand a breeze for your audience. 
