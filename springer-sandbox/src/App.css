@@ -39,11 +39,9 @@ a {
 
 /* Portfolio Table Section */
 .portfolio-section {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   height: 60vh;
-  margin-top: 180px;
   background: rgb(15, 23, 42);
 }
 
