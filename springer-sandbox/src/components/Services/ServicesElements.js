@@ -23,7 +23,7 @@ export const ServicesWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
@@ -43,7 +43,7 @@ export const ServicesCard = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: left;
   border-radius: 10px;
   max-height: 440px;
   padding: 30px;
@@ -96,7 +96,7 @@ export const ServicesH2 = styled.h2`
 
 export const ServicesP = styled.p`
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
   color: #fff;
   margin-bottom: 20px;
 `;

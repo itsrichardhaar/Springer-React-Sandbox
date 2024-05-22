@@ -20,21 +20,16 @@ const Services = () => {
     <ServicesContainer id='our-work'>
       <ServicesH1>Featured Work</ServicesH1>
       <ServicesWrapper>
-        <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer">
+        <ServicesCard as="a" href="https://www.studsvik.com" target="_blank" rel="noopener noreferrer">
           <ServicesArrow></ServicesArrow>
-          <ServicesH2>WordPress</ServicesH2>
+          <ServicesIcon src={Icon1} />
+          <ServicesH2>Custom PHP Theme Site</ServicesH2>
           <ServicesP>
-            A modern community college website that utilizes a custom PHP theme and integrates several API's.
-          </ServicesP>
-        </ServicesCard>
-        <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer">
-          <ServicesH2>Web Application / React</ServicesH2>
-          <ServicesP>
-            Discover what makes us the perfect full-service solution for your next step in marketing.
+            A custom PHP multisite developed for Studsvik, a nuclear reactor software company based in Sweden. Utilizing Tailwind and JQuery as well as REST APIs accessing the Swedish stock market index.  
           </ServicesP>
         </ServicesCard>
         <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer"tr>
-        
+          <ServicesIcon src={Icon3} />
           <ServicesH2>API Integration</ServicesH2>
           <ServicesP>
           We craft a comprehensive brand strategy that makes getting to know your brand a breeze for your audience. 
