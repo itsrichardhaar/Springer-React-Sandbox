@@ -48,6 +48,11 @@ a {
   background: rgb(15, 23, 42);
 }
 
+.portfolio-section h1 {
+  color: #fff;
+  font-size: 48px;
+}
+
 .portfolio-section h2 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -62,7 +67,7 @@ a {
 .portfolio-section th,
 .portfolio-section td {
   padding: 10px;
-  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   color: #fff;
 }
 
