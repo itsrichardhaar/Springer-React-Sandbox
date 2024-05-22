@@ -28,11 +28,11 @@ const Services = () => {
             A custom PHP multisite developed for Studsvik, a nuclear reactor software company based in Sweden. Utilizing Tailwind and JQuery as well as REST APIs accessing the Swedish stock market index.  
           </ServicesP>
         </ServicesCard>
-        <ServicesCard as="a" href="" target="_blank" rel="noopener noreferrer"tr>
+        <ServicesCard as="a" href="https://cfcc.edu/" target="_blank" rel="noopener noreferrer"tr>
           <ServicesIcon src={Icon2} />
           <ServicesH2>API Integration</ServicesH2>
           <ServicesP>
-          A custom PHP multisite developed for Cape Fear Community College. A nuclear reactor software company based in Sweden. Utilizing Tailwind and JQuery as well as REST APIs accessing the Swedish stock market index.  
+          Site developed for Cape Fear Community College. Built in PHP and integrated with REST APIs to sync and display course sequences from their software. The site also utilizes Bootstrap and JQuery. 
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
