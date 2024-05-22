@@ -51,8 +51,14 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
+                  <a href={mailtoLink}
+                    style={{
+                      textDecoration: 'none',
+                      color: 'inherit'
+                    }}
+                    >
                   <Button
-                    href={mailtoLink}
+                    as="span"
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -64,6 +70,7 @@ const InfoSection = ({
                   >
                     {buttonLabel}
                   </Button>
+                  </a>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
