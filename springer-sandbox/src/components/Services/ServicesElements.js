@@ -46,9 +46,10 @@ export const ServicesCard = styled.div`
   align-items: left;
   border-radius: 10px;
   max-height: 440px;
-  padding: 30px;
+  padding: 0px;
   border: solid 2px #fff;
   transition: all 0.2s ease-in-out;
+  overflow: hidden;
 
   &:hover {
     transform: scale(1.02);
@@ -93,6 +94,7 @@ export const ServicesH2 = styled.h2`
   margin-bottom: 10px;
   color: #fff;
   text-align: left;
+  padding-left: 20px
 `;
 
 export const ServicesP = styled.p`
@@ -101,6 +103,8 @@ export const ServicesP = styled.p`
   color: rgb(148, 163, 184) !important;
   margin-bottom: 20px;
   line-height: 1.5;
+  padding-left: 20px;
+  padding-right: 20px;
 `;
 
 export const BtnWrap = styled.div`
