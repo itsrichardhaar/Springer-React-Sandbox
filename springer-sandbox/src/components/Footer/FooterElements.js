@@ -104,6 +104,10 @@ export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
   width: 50%;
+  @media screen and (max-width: 820px) {
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const SocialIcons = styled.div`
