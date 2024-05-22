@@ -50,7 +50,7 @@ export const homeObjOne = {
     topLine: 'Let\'s Work Together',
     headline: 'I combine Passion with Experience',
     description:
-      "I create custom design solutions to help clients succeed. From small business startups to worldwide corporations, we bring passion and experience to our client's work. Feel free to reach out with potential development projects or job opportunities.",
+      "I create custom design solutions to help clients succeed. From small business startups to worldwide corporations, I bring passion and experience to my client's work. Feel free to reach out with potential development projects or job opportunities.",
     buttonLabel: 'Get In Touch',
     imgStart: false,
     img: require('../../images/svg-3.svg'),
