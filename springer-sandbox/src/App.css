@@ -38,3 +38,76 @@ a {
 }
 
 
+/* 
+.portfolio-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 60vh;
+  margin-top: 180px;
+  background: rgb(15, 23, 42);
+}
+
+.return-div {
+  padding: 20px;
+}
+
+.return-link {
+  color: #fff !important;
+}
+
+.portfolio-heading {
+  padding: 20px;
+}
+
+.portfolio-heading h1 {
+  color: #fff;
+  font-size: 48px;
+}
+
+.portfolio-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.portfolio-section table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+.portfolio-section th,
+.portfolio-section td {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  color: #fff;
+}
+
+.portfolio-section th {
+  background-color: transparent;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+}
+
+.portfolio-section tbody tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.portfolio-section td {
+  text-align: left;
+}
+
+.portfolio-section td a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.portfolio-section td a:hover {
+  text-decoration: underline;
+}
+/*
+
+ opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
+    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')}; */
