@@ -65,8 +65,8 @@ export const ServicesArrow = styled.div`
 `;
 
 export const ServicesIcon = styled.img`
-  height: 160px;
-  width: 160px;
+  height: auto;
+  width: 380px;
   margin-bottom: 20px;
 `;
 
