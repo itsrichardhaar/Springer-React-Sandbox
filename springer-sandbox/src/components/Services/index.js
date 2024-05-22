@@ -32,7 +32,7 @@ const Services = () => {
           <ServicesIcon src={Icon2} />
           <ServicesH2>API Integration</ServicesH2>
           <ServicesP>
-          We craft a comprehensive brand strategy that makes getting to know your brand a breeze for your audience. 
+          A custom PHP multisite developed for Cape Fear Community College. A nuclear reactor software company based in Sweden. Utilizing Tailwind and JQuery as well as REST APIs accessing the Swedish stock market index.  
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
