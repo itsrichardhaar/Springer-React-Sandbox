@@ -16,6 +16,8 @@ import {
   BtnWrap
 } from './ServicesElements';
 
+const buttonLink="https://www.richardhaar.com/portfolio"
+
 const Services = () => {
   return (
     <ServicesContainer id='our-work'>
@@ -38,11 +40,10 @@ const Services = () => {
         </ServicesCard>
       </ServicesWrapper>
       <BtnWrap>
-        <Link 
-        to="/portfolio"
+        <a href={buttonLink}
         >
-        <Button id="project-btn">Learn More</Button>
-        </Link>
+        <Button as="span" id="project-btn">Learn More</Button>
+        </a>
       </BtnWrap>
     </ServicesContainer>
   );
