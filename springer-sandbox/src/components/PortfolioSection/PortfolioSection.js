@@ -4,9 +4,21 @@ import React from 'react';
 
 const PortfolioSection = () => {
   const projects = [
-    { year: 2023, title: 'Project 1', made: 'Springer Studios', built: 'React', link: 'https://brittanychiang.com/archive' },
-    { year: 2022, title: 'Project 2', made: 'Springer Studios', built: 'React', link: 'https://brittanychiang.com/archive' },
-    { year: 2022, title: 'Project 3', made: 'Springer Studios', built: 'React', link: 'https://brittanychiang.com/archive' },
+    { year: 2024, title: 'Carteret Community College', made: 'Springer Studios', built: 'PHP', link: 'https://carteret.springerstudios.net' },
+    { year: 2024, title: 'Vance-Granville Community College', made: 'Springer Studios', built: 'PHP', link: 'https://www.vgcc.edu' },
+    { year: 2024, title: 'Cooks Mill Whiskey', made: 'Springer Studios', built: 'PHP', link: 'https://cooksmill-whiskey.com' },
+    { year: 2023, title: 'Cameron Art Museum', made: 'Springer Studios', built: 'PHP', link: 'https://cameronartmuseum.org' },
+    { year: 2023, title: 'Iredell Ready', made: 'Springer Studios', built: 'PHP', link: 'https://iredellready.com' },
+    { year: 2023, title: 'Honeycutt Construction Services', made: 'Springer Studios', built: 'PHP', link: 'https://honeycuttcorp.com' },
+    { year: 2023, title: 'Southeastern Community College', made: 'Springer Studios', built: 'PHP', link: 'https://www.sccnc.edu' },
+    { year: 2023, title: 'Cameron Art Museum', made: 'Springer Studios', built: 'PHP', link: 'https://cameronartmuseum.org' },
+    { year: 2023, title: 'Studsvik', made: 'Springer Studios', built: 'PHP', link: 'https://www.studsvik.com/' },
+    { year: 2023, title: 'Durham Charter', made: 'Springer Studios', built: 'PHP', link: 'https://www.durhamcharter.org' },
+    { year: 2022, title: 'Bladen Community College', made: 'Springer Studios', built: 'PHP', link: 'https://www.bladencc.edu' },
+    { year: 2022, title: 'James Sprunt Community College', made: 'Springer Studios', built: 'PHP', link: 'https://jamessprunt.edu' },
+    { year: 2022, title: 'Cape Fear Community College', made: 'Springer Studios', built: 'PHP', link: 'https://cfcc.edu/' },
+    { year: 2022, title: 'Trask Land Company', made: 'Springer Studios', built: 'PHP', link: 'https://trasklandco.com' },
+    { year: 2022, title: 'Thomas Construction Group', made: 'Springer Studios', built: 'PHP', link: 'https://thomasconstructiongroup.com' },
     // Add more projects as needed
   ];
 
