@@ -41,7 +41,7 @@ a {
 .portfolio-section {
   margin: 0 auto;
   padding: 20px;
-  height: 80vh;
+  height: auto;
   background: rgb(15, 23, 42);
 }
 
