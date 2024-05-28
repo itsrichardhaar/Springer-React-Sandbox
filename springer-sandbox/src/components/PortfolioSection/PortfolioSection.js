@@ -1,4 +1,5 @@
 // PortfolioSection.js
+// PortfolioSection.js
 import React from 'react';
 
 const PortfolioSection = () => {
@@ -19,15 +20,18 @@ const PortfolioSection = () => {
     return acc;
   }, {});
 
+  // Sort the years in descending order
+  const sortedProjectsByYear = Object.entries(projectsByYear).sort(([yearA], [yearB]) => yearB - yearA);
+
   return (
-    <div class="portfolio-section">
-        <div class="return-div">
-            <a class="return-link" href="https://www.richardhaar.com/">Richard Haar</a>
+    <div className="portfolio-section">
+        <div className="return-div">
+            <a className="return-link" href="https://www.richardhaar.com/">Richard Haar</a>
         </div>
-        <div class="portfolio-heading">
+        <div className="portfolio-heading">
             <h1>All Projects</h1>
         </div>
-      {Object.entries(projectsByYear).map(([year, projects]) => (
+      {sortedProjectsByYear.map(([year, projects]) => (
         <div key={year}>
           <h2>{year}</h2>
           <table>
@@ -45,7 +49,7 @@ const PortfolioSection = () => {
                   <td>{project.title}</td>
                   <td>{project.made}</td>
                   <td>{project.built}</td>
-                  <td>{project.link}</td>
+                  <td><a href={project.link}>{project.link}</a></td>
                 </tr>
               ))}
             </tbody>
