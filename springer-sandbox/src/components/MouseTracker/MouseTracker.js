@@ -6,7 +6,16 @@ const GradientBackground = styled.div`
   transition: background 0.1s ease;
   width: 100%;
   height: 100%;
-  position: relative; /* Ensure the div positions itself correctly */
+  position: absolute; /* Ensure it covers the entire area */
+  top: 0;
+  left: 0;
+  pointer-events: none; /* Ensure it does not block mouse events */
+`;
+
+const Container = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
 `;
 
 const MouseTracker = ({ children }) => {
@@ -14,7 +23,7 @@ const MouseTracker = ({ children }) => {
 
   const handleMouseMove = (event) => {
     const { clientX, clientY, currentTarget } = event;
-    const { width, height, left, top } = currentTarget.getBoundingClientRect();
+    const { left, top } = currentTarget.getBoundingClientRect();
     const x = clientX - left;
     const y = clientY - top;
 
@@ -23,9 +32,10 @@ const MouseTracker = ({ children }) => {
   };
 
   return (
-    <GradientBackground gradient={gradient} onMouseMove={handleMouseMove}>
+    <Container onMouseMove={handleMouseMove}>
+      <GradientBackground gradient={gradient} />
       {children}
-    </GradientBackground>
+    </Container>
   );
 };
 
