@@ -1,7 +1,4 @@
-// PortfolioSection.js
-// PortfolioSection.js
 import React from 'react';
-
 
 const PortfolioSection = () => {
   const projects = [
@@ -49,14 +46,13 @@ const PortfolioSection = () => {
   const sortedProjectsByYear = Object.entries(projectsByYear).sort(([yearA], [yearB]) => yearB - yearA);
 
   return (
-    <>
     <div className="portfolio-section">
-        <div className="return-div">
-            <a className="return-link" href="https://www.richardhaar.com/">Back to Home</a>
-        </div>
-        <div className="portfolio-heading">
-            <h1>All Projects</h1>
-        </div>
+      <div className="return-div">
+        <a className="return-link" href="https://www.richardhaar.com/">Back to Home</a>
+      </div>
+      <div className="portfolio-heading">
+        <h1>All Projects</h1>
+      </div>
       {sortedProjectsByYear.map(([year, projects]) => (
         <div key={year}>
           <h2>{year}</h2>
@@ -72,10 +68,10 @@ const PortfolioSection = () => {
             <tbody>
               {projects.map((project, index) => (
                 <tr key={index}>
-                  <td>{project.title}</td>
-                  <td>{project.made}</td>
-                  <td>{project.built}</td>
-                  <td><a href={project.link}>{project.link}</a></td>
+                  <td data-th="Project">{project.title}</td>
+                  <td data-th="Made at">{project.made}</td>
+                  <td data-th="Built with">{project.built}</td>
+                  <td data-th="Link"><a href={project.link}>{project.link}</a></td>
                 </tr>
               ))}
             </tbody>
@@ -83,7 +79,6 @@ const PortfolioSection = () => {
         </div>
       ))}
     </div>
-    </>
   );
 };
 

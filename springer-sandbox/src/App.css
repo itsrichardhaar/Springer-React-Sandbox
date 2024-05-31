@@ -106,4 +106,31 @@ a {
   text-decoration: underline;
 }
 
+/* Add this CSS to your main stylesheet */
+@media screen and (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  
+  thead tr {
+    display: none;
+  }
+  
+  tr {
+    margin-bottom: 1rem;
+  }
+  
+  td {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+  }
+  
+  td:before {
+    content: attr(data-th);
+    font-weight: bold;
+  }
+}
+
 /* Table CSS Update Test */
