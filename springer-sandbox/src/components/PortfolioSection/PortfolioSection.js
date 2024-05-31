@@ -19,6 +19,11 @@ const PortfolioSection = () => {
     { year: 2022, title: 'Cape Fear Community College', made: 'Springer Studios', built: 'PHP', link: 'https://cfcc.edu/' },
     { year: 2022, title: 'Trask Land Company', made: 'Springer Studios', built: 'PHP', link: 'https://trasklandco.com' },
     { year: 2022, title: 'Thomas Construction Group', made: 'Springer Studios', built: 'PHP', link: 'https://thomasconstructiongroup.com' },
+    { year: 2022, title: 'McCord Contactors Inc', made: 'HighClick Media', built: 'PHP', link: 'https://mccordcontractors.com' },
+    { year: 2022, title: 'SliverCare', made: 'HighClick Media', built: 'PHP', link: 'https://silvercareweb.com' },
+    { year: 2022, title: 'Edge Dental Solutions', made: 'HighClick Media', built: 'PHP', link: 'https://edgedentalsolutions.com' },
+    { year: 2021, title: 'TD Goodwin', made: 'HighClick Media', built: 'PHP', link: 'https://www.tdgoodwin.com' },
+    { year: 2020, title: 'EncounterWorks EHR', made: 'HighClick Media', built: 'PHP', link: 'https://encounterworks.com/' },
     // Add more projects as needed
   ];
 
