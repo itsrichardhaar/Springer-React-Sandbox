@@ -55,7 +55,7 @@ export const homeObjOne = {
       "I create custom design solutions to help clients succeed. From small business startups to worldwide corporations, I bring passion and experience to my client's work. Feel free to reach out with potential development projects or job opportunities.",
     buttonLabel: 'Get In Touch',
     imgStart: false,
-    img: require('../../images/CFCC-2.png'),
+    img: require('../../images/profile-pic-1.jpeg'),
     alt: 'our services',
     dark: true,
     primary: true,
