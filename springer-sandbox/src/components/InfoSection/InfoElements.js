@@ -122,4 +122,8 @@ export const Img = styled.img`
   padding-right: 0;
   border-radius: 50%;
   height: 300px;
+
+  @media screen and (max-width: 600px) {
+    margin-top: 40px;
+  }
 `;
