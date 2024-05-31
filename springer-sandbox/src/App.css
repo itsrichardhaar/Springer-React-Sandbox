@@ -160,6 +160,10 @@ a {
     text-align: center;
   }
 
+  .portfolio-section {
+    padding: 40px;
+  }
+
   .link-label td {
     text-align: center;
   }
