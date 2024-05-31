@@ -160,6 +160,14 @@ a {
     text-align: center;
   }
 
+  .link-label td {
+    text-align: center;
+  }
+
+  .link-label td a {
+    text-align: center;
+  }
+
   .portfolio-section td {
     text-align: right;
   }
