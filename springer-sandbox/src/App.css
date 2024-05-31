@@ -121,7 +121,7 @@ a {
   }
   
   tr {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   
   td {
@@ -134,6 +134,18 @@ a {
   td:before {
     content: attr(data-th);
     font-weight: bold;
+  }
+  .portfolio-section td a {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .portfolio-section td {
+    text-align: right;
+  }
+
+  .portfolio-section table {
+    padding: 0px;
   }
 }
 
