@@ -15,7 +15,7 @@ export const homeObjOne = {
     My main focus these days is building accessible user interfaces and experiences for our clients at{' '}
     <Link class="body-link" to="//www.springerstudios.com/">Springer Studios</Link>. I enjoy the sweet spot where design and development meet. I love when things look good and are well built under the hood. When I\'m not at the computer, I\'m usually outdoors, hanging out with friends.
   </>,
-    buttonLabel: 'Get Started',
+    buttonLabel: 'Get In Touch',
     imgStart: false,
     img: require('../../images/svg-1.svg'),
     alt: 'lets build',
