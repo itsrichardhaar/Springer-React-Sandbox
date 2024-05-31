@@ -110,6 +110,16 @@ a {
   text-decoration: underline !important;
 }
 
+@media screen and (max-width: 1024px) {
+  .portfolio-section td {
+    text-align: center;
+  }
+
+  .portfolio-section th {
+    text-align: center;
+  }
+}
+
 /* Add this CSS to your main stylesheet */
 @media screen and (max-width: 600px) {
   table, thead, tbody, th, td, tr {
