@@ -16,7 +16,7 @@ import {
   ImgWrap,
   Img
 } from './InfoElements';
-import MouseTracker from './MouseTracker';
+import MouseTracker from '../MouseTracker/MouseTracker';
 
 const InfoSection = ({
   lightBg,
