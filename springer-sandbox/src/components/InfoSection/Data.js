@@ -22,7 +22,7 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false,
-    hasImage={false}
+    hasImage: false
   };
 
   export const homeObjTwo = {
@@ -41,6 +41,7 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false,
+    hasImage: false
   };
   
   export const homeObjThree = {
@@ -59,6 +60,7 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false,
+    hasImage: true
   };
   
   
