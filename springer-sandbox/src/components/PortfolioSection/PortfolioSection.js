@@ -1,6 +1,7 @@
 // PortfolioSection.js
 // PortfolioSection.js
 import React from 'react';
+import MouseTracker from '../MouseTracker/MouseTracker';
 
 const PortfolioSection = () => {
   const projects = [
@@ -48,6 +49,7 @@ const PortfolioSection = () => {
   const sortedProjectsByYear = Object.entries(projectsByYear).sort(([yearA], [yearB]) => yearB - yearA);
 
   return (
+    <MouseTracker>
     <div className="portfolio-section">
         <div className="return-div">
             <a className="return-link" href="https://www.richardhaar.com/">Back to Home</a>
@@ -81,6 +83,7 @@ const PortfolioSection = () => {
         </div>
       ))}
     </div>
+    </MouseTracker>
   );
 };
 
