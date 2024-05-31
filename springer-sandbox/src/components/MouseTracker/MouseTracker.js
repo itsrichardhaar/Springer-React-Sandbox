@@ -10,7 +10,7 @@ const GradientBackground = styled.div`
   top: 0;
   left: 0;
   pointer-events: none; /* Ensure it does not block mouse events */
-  z-index: -1; /* Place it behind other content */
+
 `;
 
 const Container = styled.div`

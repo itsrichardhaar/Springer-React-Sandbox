@@ -11,6 +11,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import PortfolioSection from '../components/PortfolioSection/PortfolioSection';
 import Footer from '../components/Footer';
+import MouseTracker from './MouseTracker';
 
 
 
@@ -23,11 +24,11 @@ const Portfolio = () => {
     }
 
   return (
-    <>
+    <MouseTracker>
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <PortfolioSection />
        <Footer />
-    </>
+    </MouseTracker>
   );
 };
 

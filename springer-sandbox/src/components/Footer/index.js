@@ -24,14 +24,14 @@ import {
   SocialIcons,
   SocialIconLink
 } from './FooterElements';
-import MouseTracker from '../MouseTracker/MouseTracker';
+
 
 const Footer = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
   return (
-    <MouseTracker>
+    <>
     <FooterContainer>
       <FooterWrap>
         <FooterLinksContainer>
@@ -73,7 +73,7 @@ const Footer = () => {
         </SocialMedia>
       </FooterWrap>
     </FooterContainer>
-    </MouseTracker>
+    </>
   );
 };
 

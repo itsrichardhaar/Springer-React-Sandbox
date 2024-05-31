@@ -16,13 +16,12 @@ import {
   BtnWrap
 } from './ServicesElements';
 
-import MouseTracker from '../MouseTracker/MouseTracker';
 
 const buttonLink="https://www.richardhaar.com/portfolio"
 
 const Services = () => {
   return (
-    <MouseTracker>
+    <>
     <ServicesContainer id='our-work'>
       <ServicesH1>Featured Work</ServicesH1>
       <ServicesWrapper>
@@ -49,7 +48,7 @@ const Services = () => {
       </BtnWrap>
       </a>
     </ServicesContainer>
-    </MouseTracker>
+    </>
   );
 };
 

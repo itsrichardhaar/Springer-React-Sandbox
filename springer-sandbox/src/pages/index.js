@@ -10,6 +10,7 @@ import Services from '../components/Services';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
+import MouseTracker from './MouseTracker';
 
 
 
@@ -24,7 +25,7 @@ const Home = () => {
     }
 
   return (
-    <>
+    <MouseTracker>
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle} />
         
@@ -33,7 +34,7 @@ const Home = () => {
         <Services />
        <InfoSection {...homeObjThree} />
        <Footer />
-    </>
+    </MouseTracker>
   );
 };
 

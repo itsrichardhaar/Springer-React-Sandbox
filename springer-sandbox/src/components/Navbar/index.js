@@ -11,7 +11,6 @@ import {
     NavItem, 
     NavLinks } from './NavbarElements';
 
-    import MouseTracker from '../MouseTracker/MouseTracker';
  
 const Navbar = ({toggle}) => {
     const [scrollNav, setScrollNav] = useState(false)
@@ -33,7 +32,7 @@ const Navbar = ({toggle}) => {
         scroll.scrollToTop();
       }
   return (
-    <MouseTracker>
+    <>
         <Nav scrollNav ={scrollNav}>
             <NavbarContainer>
                 <NavLogo to='/' onClick={toggleHome}>
@@ -86,7 +85,7 @@ const Navbar = ({toggle}) => {
                 </NavMenu>
             </NavbarContainer>
         </Nav>    
-    </MouseTracker>
+    </>
   );
 };
 
