@@ -21,7 +21,8 @@ export const homeObjOne = {
     alt: 'lets build',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    hasImage={false}
   };
 
   export const homeObjTwo = {
@@ -39,7 +40,7 @@ export const homeObjOne = {
     alt: 'what we do',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
   };
   
   export const homeObjThree = {
@@ -57,7 +58,7 @@ export const homeObjOne = {
     alt: 'our services',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
   };
   
   

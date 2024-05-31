@@ -34,7 +34,8 @@ const InfoSection = ({
   primary,
   darkText,
   dark,
-  dark2
+  dark2,
+  hasImage // Add this prop to control the display of the image
 }) => {
   const email = "haar.richard@gmail.com";
   const mailtoLink = `mailto:${email}`;
@@ -77,6 +78,11 @@ const InfoSection = ({
             <Column2>
               <SubtitleTwo darkText={darkText}>{descriptionTwo}</SubtitleTwo>
               <SubtitleThree darkText={darkText}>{descriptionThree}</SubtitleThree>
+              {hasImage && ( // Conditionally render the image section
+                <ImgWrap>
+                  <Img src={img} alt={alt} />
+                </ImgWrap>
+              )}
             </Column2>
           </InfoRow>
         </InfoWrapper>
