@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const GradientBackground = styled.div`
@@ -6,6 +6,7 @@ const GradientBackground = styled.div`
   transition: background 0.1s ease;
   width: 100%;
   height: 100%;
+  position: relative; /* Ensure the div positions itself correctly */
 `;
 
 const MouseTracker = ({ children }) => {
@@ -17,6 +18,7 @@ const MouseTracker = ({ children }) => {
     const x = clientX - left;
     const y = clientY - top;
 
+    console.log(`Mouse position: (${x}, ${y})`); // Debugging log
     setGradient(`radial-gradient(600px at ${x}px ${y}px, rgba(29, 78, 216, 0.15), transparent 80%)`);
   };
 
@@ -28,3 +30,4 @@ const MouseTracker = ({ children }) => {
 };
 
 export default MouseTracker;
+
