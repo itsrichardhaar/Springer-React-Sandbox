@@ -71,7 +71,7 @@ const PortfolioSection = () => {
                   <td data-th="Project">{project.title}</td>
                   <td data-th="Made at">{project.made}</td>
                   <td data-th="Built with">{project.built}</td>
-                  <td data-th="Link"><a href={project.link}>{project.link}</a></td>
+                  <td class="link-label"><a href={project.link}>Link</a></td>
                 </tr>
               ))}
             </tbody>
