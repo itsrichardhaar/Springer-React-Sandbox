@@ -22,13 +22,13 @@ const PortfolioSection = () => {
     { year: 2022, title: 'Edge Dental Solutions', made: 'HighClick Media', built: 'PHP', link: 'https://edgedentalsolutions.com' },
     { year: 2021, title: 'TD Goodwin', made: 'HighClick Media', built: 'PHP', link: 'https://www.tdgoodwin.com' },
     { year: 2020, title: 'EncounterWorks EHR', made: 'HighClick Media', built: 'PHP', link: 'https://encounterworks.com/' },
-    { year: 2018, title: 'Hidden Talents', made: 'UNC Chapel Hill Bootcamp', built: 'React', link: 'https://github.com/itsrichardhaar/Hidden-Talents' },
-    { year: 2018, title: 'Know Your Vote', made: 'UNC Chapel Hill Bootcamp', built: 'React', link: 'https://github.com/merinogeospatial/know-your-vote' },
-    { year: 2018, title: 'HiJack', made: 'UNC Chapel Hill Bootcamp', built: 'React', link: 'https://github.com/itsrichardhaar/HiJack/tree/master/Alice' },
-    { year: 2018, title: 'Trivia Game', made: 'UNC Chapel Hill Bootcamp', built: 'Javascript', link: 'https://github.com/itsrichardhaar/Homework-5/' },
-    { year: 2018, title: 'Bamazon App', made: 'UNC Chapel Hill Bootcamp', built: 'Node.js', link: 'https://github.com/itsrichardhaar/bamazon-app' },
-    { year: 2018, title: 'Liri Node App', made: 'UNC Chapel Hill Bootcamp', built: 'Node.js', link: 'https://github.com/itsrichardhaar/liri-node-app' },
-    { year: 2018, title: 'Mongo Scraper', made: 'UNC Chapel Hill Bootcamp', built: 'Javascript', link: 'https://github.com/itsrichardhaar/mongo-scraper' },
+    { year: 2018, title: 'Hidden Talents', made: 'UNC Coding Bootcamp', built: 'React', link: 'https://github.com/itsrichardhaar/Hidden-Talents' },
+    { year: 2018, title: 'Know Your Vote', made: 'UNC Coding Bootcamp', built: 'React', link: 'https://github.com/merinogeospatial/know-your-vote' },
+    { year: 2018, title: 'HiJack', made: 'UNC Coding Bootcamp', built: 'React', link: 'https://github.com/itsrichardhaar/HiJack/tree/master/Alice' },
+    { year: 2018, title: 'Trivia Game', made: 'UNC Coding Bootcamp', built: 'Javascript', link: 'https://github.com/itsrichardhaar/Homework-5/' },
+    { year: 2018, title: 'Bamazon App', made: 'UNC Coding Bootcamp', built: 'Node.js', link: 'https://github.com/itsrichardhaar/bamazon-app' },
+    { year: 2018, title: 'Liri Node App', made: 'UNC Coding Bootcamp', built: 'Node.js', link: 'https://github.com/itsrichardhaar/liri-node-app' },
+    { year: 2018, title: 'Mongo Scraper', made: 'UNC Coding Bootcamp', built: 'Javascript', link: 'https://github.com/itsrichardhaar/mongo-scraper' },
     // Add more projects as needed
   ];
 
