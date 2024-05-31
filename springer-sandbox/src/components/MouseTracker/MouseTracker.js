@@ -6,14 +6,14 @@ const GradientBackground = styled.div`
   transition: background 0.1s ease;
   width: 100%;
   height: 100%;
-  position: absolute; /* Ensure it covers the entire area */
+  position: fixed; /* Cover the entire viewport */
   top: 0;
   left: 0;
   pointer-events: none; /* Ensure it does not block mouse events */
+  z-index: -1; /* Place it behind other content */
 `;
 
 const Container = styled.div`
-  position: relative;
   width: 100%;
   height: 100%;
 `;
@@ -22,13 +22,8 @@ const MouseTracker = ({ children }) => {
   const [gradient, setGradient] = useState('radial-gradient(600px at center, rgba(29, 78, 216, 0.15), transparent 80%)');
 
   const handleMouseMove = (event) => {
-    const { clientX, clientY, currentTarget } = event;
-    const { left, top } = currentTarget.getBoundingClientRect();
-    const x = clientX - left;
-    const y = clientY - top;
-
-    console.log(`Mouse position: (${x}, ${y})`); // Debugging log
-    setGradient(`radial-gradient(600px at ${x}px ${y}px, rgba(29, 78, 216, 0.15), transparent 80%)`);
+    const { clientX, clientY } = event;
+    setGradient(`radial-gradient(600px at ${clientX}px ${clientY}px, rgba(29, 78, 216, 0.15), transparent 80%)`);
   };
 
   return (
