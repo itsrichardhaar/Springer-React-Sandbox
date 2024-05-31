@@ -48,7 +48,7 @@ const Sidebar = ({isOpen, toggle}) => {
                 >Projects
                     </SidebarLink>
                 <SidebarLink 
-                to="our-team" 
+                to="contact" 
                 onClick={toggle} 
                 smooth={true}
                 duration={500}
@@ -57,10 +57,9 @@ const Sidebar = ({isOpen, toggle}) => {
                 offset={-80}
                 >Contact
                 </SidebarLink>
-                <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to="/email">Email Me</SidebarRoute>
+                <SidebarRoute as="a" href="mailto:haar.richard@gmail.com">Email Me</SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>

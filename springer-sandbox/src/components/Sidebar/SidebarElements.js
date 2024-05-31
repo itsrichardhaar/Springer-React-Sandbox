@@ -9,7 +9,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #ddd;
+    background: rgb(15, 23, 42);
     display: grid;
     align-items: center;
     left: 0;
@@ -20,7 +20,7 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-    color: rgb(15, 23, 42);
+    color: #fff;
     transition: 0.2s ease-in-out;
 
     &:hover {
