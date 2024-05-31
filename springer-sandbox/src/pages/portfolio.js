@@ -11,7 +11,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import PortfolioSection from '../components/PortfolioSection/PortfolioSection';
 import Footer from '../components/Footer';
-import MouseTracker from './MouseTracker';
+import MouseTracker from '../components/MouseTracker/MouseTracker';
 
 
 

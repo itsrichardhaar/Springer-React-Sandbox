@@ -10,7 +10,7 @@ import Services from '../components/Services';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
-import MouseTracker from './MouseTracker';
+import MouseTracker from '../components/MouseTracker/MouseTracker';
 
 
 
