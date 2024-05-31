@@ -42,14 +42,14 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>Loosely designed in Figma and coded in Visual Studio Code. Built with React and utlizing Styled Compontents, deployed with Vercel. All text is set in the Inter typeface.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+              <SocialIconLink href='https://www.facebook.com/richard.haar.3' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink href='https://www.instagram.com/richard_haar/' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink
-                href=''
+                href='https://www.linkedin.com/in/richard-haar-a81916155/'
                 target='_blank'
                 aria-label='Linkedin'
                 rel='noopener noreferrer'
@@ -59,7 +59,7 @@ const Footer = () => {
               <SocialIconLink
                 target='_blank'
                 aria-label='Github'
-                href=''
+                href='https://github.com/itsrichardhaar'
               >
                 <FaGithub />
               </SocialIconLink>
