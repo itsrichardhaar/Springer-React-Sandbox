@@ -38,7 +38,7 @@ const PortfolioSection = () => {
   return (
     <div className="portfolio-section">
         <div className="return-div">
-            <a className="return-link" href="https://www.richardhaar.com/">Richard Haar</a>
+            <a className="return-link" href="https://www.richardhaar.com/">Back to Home</a>
         </div>
         <div className="portfolio-heading">
             <h1>All Projects</h1>
