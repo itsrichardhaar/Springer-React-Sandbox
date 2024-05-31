@@ -114,6 +114,12 @@ a {
   text-decoration: underline !important;
 }
 
+.nav-logo {
+  height: 60px;
+  width: auto;
+  border-radius: 8px;
+}
+
 @media screen and (max-width: 1024px) {
   .portfolio-section td {
     text-align: center;
