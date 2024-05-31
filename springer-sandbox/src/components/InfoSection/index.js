@@ -16,7 +16,7 @@ import {
   ImgWrap,
   Img
 } from './InfoElements';
-
+import MouseTracker from './MouseTracker';
 
 const InfoSection = ({
   lightBg,
@@ -43,6 +43,7 @@ const InfoSection = ({
   console.log(primary);
   return (
     <>
+    <MouseTracker>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
@@ -87,6 +88,7 @@ const InfoSection = ({
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
+      </MouseTracker>
     </>
   );
 };
