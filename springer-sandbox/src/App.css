@@ -40,13 +40,13 @@ a {
 /* Portfolio Table Section */
 .portfolio-section {
   margin: 0 auto;
-  padding: 20px;
+  padding: 60px;
   height: auto;
   background: rgb(15, 23, 42);
 }
 
 .return-div {
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 .return-link {
@@ -54,7 +54,7 @@ a {
 }
 
 .portfolio-heading {
-  padding: 20px;
+  padding-bottom: 40px;
 }
 
 .portfolio-heading h1 {
@@ -75,11 +75,15 @@ a {
   margin-bottom: 40px;
 }
 
-.portfolio-section th,
+.portfolio-section th {
+  padding: 20px;
+  color: #fff;
+}
+
 .portfolio-section td {
   padding: 20px;
-  border-bottom: 1px solid #ddd;
-  color: #fff;
+  border-bottom: 1px solid rgb(148, 163, 184);
+  color: rgb(148, 163, 184);
 }
 
 .portfolio-section th {
@@ -103,7 +107,7 @@ a {
 }
 
 .portfolio-section td a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 /* Add this CSS to your main stylesheet */
