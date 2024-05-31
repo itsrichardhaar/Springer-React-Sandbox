@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { FaBars } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
+import logo from '../../images/android-chrome-512x512.png';
 
 import { 
     Nav, 
@@ -36,7 +37,7 @@ const Navbar = ({toggle}) => {
         <Nav scrollNav ={scrollNav}>
             <NavbarContainer>
                 <NavLogo to='/' onClick={toggleHome}>
-                    
+                <img src={logo} alt="Logo" style={{ height: '40px', width: 'auto' }} />
                 </NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
