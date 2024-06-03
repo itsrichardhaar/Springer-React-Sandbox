@@ -103,6 +103,7 @@ a {
 
 .portfolio-section td {
   text-align: left;
+  width: 25%;
 }
 
 .portfolio-section td a {
