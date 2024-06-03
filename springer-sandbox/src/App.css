@@ -165,7 +165,6 @@ a {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    width: 100%;
   }
 
   .portfolio-section {
@@ -182,6 +181,7 @@ a {
 
   .portfolio-section td {
     text-align: right;
+    width: 100%;
   }
 
   .portfolio-section table {
