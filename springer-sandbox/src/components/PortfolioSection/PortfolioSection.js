@@ -4,6 +4,7 @@ const PortfolioSection = () => {
   const projects = [
     { year: 2024, title: 'Carteret Community College', made: 'Springer Studios', built: 'PHP', link: 'https://carteret.springerstudios.net' },
     { year: 2024, title: 'Vance-Granville Community College', made: 'Springer Studios', built: 'PHP', link: 'https://www.vgcc.edu' },
+    { year: 2024, title: 'Personal Website V2', made: '', built: 'React', link: 'https://www.richardhaar.com/' },
     { year: 2024, title: 'Cooks Mill Whiskey', made: 'Springer Studios', built: 'PHP', link: 'https://cooksmill-whiskey.com' },
     { year: 2023, title: 'Cameron Art Museum', made: 'Springer Studios', built: 'PHP', link: 'https://cameronartmuseum.org' },
     { year: 2023, title: 'Iredell Ready', made: 'Springer Studios', built: 'PHP', link: 'https://iredellready.com' },
@@ -22,6 +23,7 @@ const PortfolioSection = () => {
     { year: 2022, title: 'Edge Dental Solutions', made: 'HighClick Media', built: 'PHP', link: 'https://edgedentalsolutions.com' },
     { year: 2021, title: 'TD Goodwin', made: 'HighClick Media', built: 'PHP', link: 'https://www.tdgoodwin.com' },
     { year: 2020, title: 'EncounterWorks EHR', made: 'HighClick Media', built: 'PHP', link: 'https://encounterworks.com/' },
+    { year: 2018, title: 'Bootcamp Dev Portfolio', made: 'UNC Coding Bootcamp', built: 'React', link: 'https://github.com/itsrichardhaar/Sphere-bs4' },
     { year: 2018, title: 'Hidden Talents', made: 'UNC Coding Bootcamp', built: 'React', link: 'https://github.com/itsrichardhaar/Hidden-Talents' },
     { year: 2018, title: 'Know Your Vote', made: 'UNC Coding Bootcamp', built: 'React', link: 'https://github.com/merinogeospatial/know-your-vote' },
     { year: 2018, title: 'HiJack', made: 'UNC Coding Bootcamp', built: 'React', link: 'https://github.com/itsrichardhaar/HiJack/tree/master/Alice' },
