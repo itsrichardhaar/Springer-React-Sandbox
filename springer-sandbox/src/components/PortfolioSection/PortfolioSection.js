@@ -12,7 +12,7 @@ const PortfolioSection = () => {
     { year: 2023, title: 'Southeastern Community College', made: 'Springer Studios', built: 'PHP', link: 'https://www.sccnc.edu' },
     { year: 2023, title: 'Cameron Art Museum', made: 'Springer Studios', built: 'PHP', link: 'https://cameronartmuseum.org' },
     { year: 2023, title: 'Apple Annies Bake Shop', made: 'Springer Studios', built: 'PHP', link: 'https://www.appleanniesbakeshop.com/' },
-    { year: 2023, title: 'Wholesale Order Management Plugin', made: 'Springer Studios', built: 'React', link: 'https://www.appleanniesbakeshop.com/' },
+    { year: 2023, title: 'Wholesale Management Plugin', made: 'Springer Studios', built: 'React', link: 'https://www.appleanniesbakeshop.com/' },
     { year: 2023, title: 'Studsvik', made: 'Springer Studios', built: 'PHP', link: 'https://www.studsvik.com/' },
     { year: 2023, title: 'Durham Charter', made: 'Springer Studios', built: 'PHP', link: 'https://www.durhamcharter.org' },
     { year: 2022, title: 'Bladen Community College', made: 'Springer Studios', built: 'PHP', link: 'https://www.bladencc.edu' },
