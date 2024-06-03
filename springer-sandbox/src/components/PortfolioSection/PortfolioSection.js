@@ -6,6 +6,7 @@ const PortfolioSection = () => {
     { year: 2024, title: 'Vance-Granville Community College', made: 'Springer Studios', built: 'PHP', link: 'https://www.vgcc.edu' },
     { year: 2024, title: 'Personal Website V2', made: '', built: 'React', link: 'https://www.richardhaar.com/' },
     { year: 2024, title: 'Cooks Mill Whiskey', made: 'Springer Studios', built: 'PHP', link: 'https://cooksmill-whiskey.com' },
+    { year: 2024, title: 'Dynamic Google Map', made: 'Springer Studios', built: 'Javascript', link: 'https://github.com/itsrichardhaar/map-scripts' },
     { year: 2023, title: 'Cameron Art Museum', made: 'Springer Studios', built: 'PHP', link: 'https://cameronartmuseum.org' },
     { year: 2023, title: 'Iredell Ready', made: 'Springer Studios', built: 'PHP', link: 'https://iredellready.com' },
     { year: 2023, title: 'Honeycutt Construction Services', made: 'Springer Studios', built: 'PHP', link: 'https://honeycuttcorp.com' },
