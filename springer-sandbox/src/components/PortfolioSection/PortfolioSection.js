@@ -2,7 +2,7 @@ import React from 'react';
 
 const PortfolioSection = () => {
   const projects = [
-    { year: 2024, title: 'Carteret Community College', made: 'Springer Studios', built: 'PHP', link: 'https://carteret.springerstudios.net' },
+    { year: 2024, title: 'Carteret Community College', made: 'Springer Studios', built: 'PHP', link: 'https://carteret.edu/' },
     { year: 2024, title: 'Vance-Granville Community College', made: 'Springer Studios', built: 'PHP', link: 'https://www.vgcc.edu' },
     { year: 2024, title: 'Personal Website V2', made: '', built: 'React', link: 'https://www.richardhaar.com/' },
     { year: 2024, title: 'Cooks Mill Whiskey', made: 'Springer Studios', built: 'PHP', link: 'https://cooksmill-whiskey.com' },
