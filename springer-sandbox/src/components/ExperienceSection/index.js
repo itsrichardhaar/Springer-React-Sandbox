@@ -101,7 +101,7 @@ const ExperienceSection = ({
                         </TagWrapper>
                     </CardInfo>
                 </CardItem>
-                <CardItem as="a" href="https://www.highclickmedia.com" target="_blank" rel="noopener noreferrer">
+                <CardItem as="a" href="https://dtinetworks.com/" target="_blank" rel="noopener noreferrer">
                     <CardInfo>
                         <CardDate>May 2019 - Feb 2022</CardDate>
                         <CardTitle>HighClick Media</CardTitle>
