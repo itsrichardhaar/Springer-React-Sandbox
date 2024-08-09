@@ -31,7 +31,7 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: true,
     topLine: 'Crafting Digital Solutions',
-    headline: 'My Professional Experience',
+    headline: 'Work Experience',
     description:
       'We design high-quality, cohesive, purpose-driven creative solutions. We’re champions for our clients and passionate every step of the way. We measure our success by the success of our clients, and we absolutely love what we do.',
     buttonLabel: 'View Full Resume',

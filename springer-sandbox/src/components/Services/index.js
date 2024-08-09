@@ -23,7 +23,7 @@ const Services = () => {
   return (
     <>
     <ServicesContainer id='our-work'>
-      <ServicesH1>Featured Work</ServicesH1>
+      <ServicesH1>Featured Projects</ServicesH1>
       <ServicesWrapper>
         <ServicesCard as="a" href="https://www.studsvik.com" target="_blank" rel="noopener noreferrer">
           <ServicesArrow></ServicesArrow>
