@@ -86,7 +86,7 @@ const ExperienceSection = ({
                 <CardWrapper>
                  <CardItem as="a" href="https://www.springerstudios.com" target="_blank" rel="noopener noreferrer">
                     <CardInfo>
-                        <CardDate>Feb 2022 - Present</CardDate>
+                        <CardDate>2022 - Present</CardDate>
                         <CardTitle>Springer Studios</CardTitle>
                         <CardRole>Senior Frontend Developer</CardRole>
                         <CardText></CardText>
@@ -104,7 +104,7 @@ const ExperienceSection = ({
                 </CardItem>
                 <CardItem as="a" href="https://dtinetworks.com/" target="_blank" rel="noopener noreferrer">
                     <CardInfo>
-                        <CardDate>May 2019 - Feb 2022</CardDate>
+                        <CardDate>2019 - 2022</CardDate>
                         <CardTitle>HighClick Media</CardTitle>
                         <CardRole>Web Developer</CardRole>
                         <CardText></CardText>
