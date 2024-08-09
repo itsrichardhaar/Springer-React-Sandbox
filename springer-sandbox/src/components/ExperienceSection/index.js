@@ -89,7 +89,7 @@ const ExperienceSection = ({
                         <CardDate>Feb 2022 - Present</CardDate>
                         <CardTitle>Springer Studios</CardTitle>
                         <CardRole>Senior Frontend Developer</CardRole>
-                        <CardText>Led a team of three engineers to develop client websites and applications</CardText>
+                        <CardText></CardText>
                         <TagWrapper>
                             <Tag>React</Tag>
                             <Tag>Redux</Tag>
@@ -107,7 +107,7 @@ const ExperienceSection = ({
                         <CardDate>May 2019 - Feb 2022</CardDate>
                         <CardTitle>HighClick Media</CardTitle>
                         <CardRole>Web Developer</CardRole>
-                        <CardText>Frontend Developer</CardText>
+                        <CardText></CardText>
                         <TagWrapper>
                             <Tag>JavaScript</Tag>
                             <Tag>SCSS</Tag>
@@ -124,7 +124,7 @@ const ExperienceSection = ({
                     <CardDate>2018 - 2019</CardDate>
                         <CardTitle>Freelance</CardTitle>
                         <CardRole>Frontend Developer</CardRole>
-                        <CardText>Frontend Developer</CardText>
+                        <CardText></CardText>
                         <TagWrapper>
                             <Tag>WordPress</Tag>
                             <Tag>PHP</Tag>
