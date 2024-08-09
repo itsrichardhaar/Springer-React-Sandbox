@@ -104,11 +104,11 @@ const ExperienceSection = ({
                     <CardInfo>
                         <CardDate>May 2019 - Feb 2022</CardDate>
                         <CardTitle>HighClick Media</CardTitle>
-                        <CardText>Web Developer / SEO Specialist</CardText>
+                        <CardText>Web Developer</CardText>
                         <TagWrapper>
-                            <Tag>React</Tag>
-                            <Tag>SCSS</Tag>
                             <Tag>JavaScript</Tag>
+                            <Tag>SCSS</Tag>
+                            <Tag>React</Tag>
                             <Tag>jQuery</Tag>
                             <Tag>WordPress</Tag>
                             <Tag>PHP</Tag>
@@ -120,7 +120,7 @@ const ExperienceSection = ({
                     <CardInfo>
                     <CardDate>2018 - 2019</CardDate>
                         <CardTitle>Freelance</CardTitle>
-                        <CardText>WordPress Developer</CardText>
+                        <CardText>Full Stack Engineer</CardText>
                         <TagWrapper>
                             <Tag>WordPress</Tag>
                             <Tag>PHP</Tag>
