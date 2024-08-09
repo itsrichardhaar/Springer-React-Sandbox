@@ -50,7 +50,7 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Let\'s Work Together',
-    headline: 'Available for freelance opportunities',
+    headline: 'Available for select freelance opportunities',
     description:
       "I create custom design solutions to help clients succeed. From small business startups to worldwide corporations, I bring passion and experience to my client's work. Feel free to reach out with potential development projects or job opportunities.",
     buttonLabel: 'Get In Touch',
