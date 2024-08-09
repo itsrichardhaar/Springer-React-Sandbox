@@ -90,13 +90,12 @@ const ExperienceSection = ({
                         <CardText>Senior Frontend Developer</CardText>
                         <TagWrapper>
                             <Tag>React</Tag>
-                            <Tag>Javascript</Tag>
-                            <Tag>WordPress</Tag>
-                            <Tag>PHP</Tag>
+                            <Tag>Redux</Tag>
+                            <Tag>Styled Components</Tag>
+                            <Tag>Famer Motion</Tag>
+                            <Tag>GSAP</Tag>
                             <Tag>AWS</Tag>
-                            <Tag>Node.js</Tag>
-                            <Tag>MySQL</Tag>
-                            <Tag>SCSS</Tag>
+                            <Tag>PHP</Tag>
                             <Tag>Tailwind</Tag>
                         </TagWrapper>
                     </CardInfo>
@@ -107,13 +106,13 @@ const ExperienceSection = ({
                         <CardTitle>HighClick Media</CardTitle>
                         <CardText>Web Developer / SEO Specialist</CardText>
                         <TagWrapper>
-                            <Tag>HTML</Tag>
-                            <Tag>CSS</Tag>
+                            <Tag>React</Tag>
+                            <Tag>SCSS</Tag>
                             <Tag>Javascript</Tag>
                             <Tag>jQuery</Tag>
                             <Tag>WordPress</Tag>
                             <Tag>PHP</Tag>
-                            <Tag>SEO</Tag>
+                            <Tag>MySQL</Tag>
                         </TagWrapper>
                     </CardInfo>
                 </CardItem>
