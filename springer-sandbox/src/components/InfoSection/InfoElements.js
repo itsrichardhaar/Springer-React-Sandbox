@@ -1,4 +1,44 @@
 import styled from 'styled-components';
+import { keyframes } from 'styled-components';
+
+const fadeIn = keyframes`
+  from {
+
+  opacity: 0;
+
+  }
+  to {
+
+  opacity: 1;
+
+  }
+`;
+
+const slideIn = keyframes`
+  from {
+
+  transform: translateY(30px);
+  opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+    
+`;
+
+const slideSlowIn = keyframes`
+  from {
+
+  transform: translateY(20px);
+  opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+    
+`;
 
 export const InfoContainer = styled.div`
   color: #fff;
@@ -65,6 +105,7 @@ export const TopLine = styled.div`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+  
 `;
 
 export const Heading = styled.h1`
@@ -73,6 +114,7 @@ export const Heading = styled.h1`
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#fff')};
+  
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
