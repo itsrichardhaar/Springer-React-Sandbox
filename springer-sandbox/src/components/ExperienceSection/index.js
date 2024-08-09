@@ -91,8 +91,8 @@ const ExperienceSection = ({
                         <TagWrapper>
                             <Tag>React</Tag>
                             <Tag>Redux</Tag>
-                            <Tag>Styled Components</Tag>
-                            <Tag>Famer Motion</Tag>
+                            <Tag>node.js</Tag>
+                            <Tag>three.js</Tag>
                             <Tag>GSAP</Tag>
                             <Tag>AWS</Tag>
                             <Tag>PHP</Tag>
@@ -108,7 +108,7 @@ const ExperienceSection = ({
                         <TagWrapper>
                             <Tag>React</Tag>
                             <Tag>SCSS</Tag>
-                            <Tag>Javascript</Tag>
+                            <Tag>JavaScript</Tag>
                             <Tag>jQuery</Tag>
                             <Tag>WordPress</Tag>
                             <Tag>PHP</Tag>
@@ -126,7 +126,7 @@ const ExperienceSection = ({
                             <Tag>PHP</Tag>
                             <Tag>HTML</Tag>
                             <Tag>CSS</Tag>
-                            <Tag>Javascript</Tag>
+                            <Tag>JavaScript</Tag>
                         </TagWrapper>
                     </CardInfo>
                 </CardItem>
