@@ -67,6 +67,12 @@ export const CardTitle = styled.h3`
 `;
 
 export const CardText = styled.p`
+  font-size: 0.75rem;
+  color: rgb(148 163 184) !important;
+  text-decoration: none !important;
+`;
+
+export const CardRole = styled.p`
   font-size: 1rem;
   color: rgb(148 163 184) !important;
   text-decoration: none !important;
