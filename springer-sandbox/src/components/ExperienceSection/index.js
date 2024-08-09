@@ -26,6 +26,7 @@ import {
     CardInfo,
     CardTitle,
     CardText,
+    CardRole,
     TagWrapper,
     Tag
   } from './CardElements';
@@ -87,7 +88,8 @@ const ExperienceSection = ({
                     <CardInfo>
                         <CardDate>Feb 2022 - Present</CardDate>
                         <CardTitle>Springer Studios</CardTitle>
-                        <CardText>Senior Frontend Developer</CardText>
+                        <CardRole>Senior Frontend Developer</CardRole>
+                        <CardText>Led a team of three engineers to develop client websites and applications</CardText>
                         <TagWrapper>
                             <Tag>React</Tag>
                             <Tag>Redux</Tag>
