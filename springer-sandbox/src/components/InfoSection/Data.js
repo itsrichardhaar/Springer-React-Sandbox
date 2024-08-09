@@ -9,8 +9,8 @@ export const homeObjOne = {
     topLine: 'Senior Frontend Developer',
     headline: 'Richard Haar',
     description:
-      '',
-    descriptionTwo: 'I enjoy building dynamic, creative products from start to finish. I focus on developing intuitive experiences that constantly grow and imporve based on user metrics.',
+      'I enjoy building dynamic, creative products from start to finish. I focus on developing intuitive experiences that constantly grow and imporve based on user metrics.',
+    descriptionTwo: 'Back in 2018, I decided to try and develop a personal website to promote music I was creating. This led me to the rabbit hole of coding and web development. Fast-forward to today, and I\'ve had the privilege of builidng web applications for a number of marketing agencies and freelance clients.',
     descriptionThree: <>
     My main focus these days is building accessible user interfaces and experiences for our clients at{' '}
     <Link class="body-link" to="//www.springerstudios.com/">Springer Studios</Link>. I enjoy the sweet spot where design and development meet. I love when things look good and are well built under the hood. When I'm not at the computer, I'm usually outdoors, hanging out with friends.
