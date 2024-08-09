@@ -76,6 +76,7 @@ export const CardRole = styled.p`
   font-size: 1rem;
   color: rgb(148 163 184) !important;
   text-decoration: none !important;
+  margin-bottom: 10px;
 `;
 
 export const TagWrapper = styled.div`
