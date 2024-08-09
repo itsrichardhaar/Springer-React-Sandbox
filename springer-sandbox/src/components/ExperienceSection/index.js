@@ -120,7 +120,7 @@ const ExperienceSection = ({
                 <CardItem>
                     <CardInfo>
                     <CardDate>2018 - 2019</CardDate>
-                        <CardTitle>Upwork</CardTitle>
+                        <CardTitle>Freelance</CardTitle>
                         <CardText>WordPress Developer</CardText>
                         <TagWrapper>
                             <Tag>WordPress</Tag>
