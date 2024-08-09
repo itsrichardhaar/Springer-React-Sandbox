@@ -92,7 +92,7 @@ const ExperienceSection = ({
                             <Tag>React</Tag>
                             <Tag>Redux</Tag>
                             <Tag>node.js</Tag>
-                            <Tag>three.js</Tag>
+                            <Tag>Three.js</Tag>
                             <Tag>GSAP</Tag>
                             <Tag>AWS</Tag>
                             <Tag>PHP</Tag>
@@ -120,7 +120,7 @@ const ExperienceSection = ({
                     <CardInfo>
                     <CardDate>2018 - 2019</CardDate>
                         <CardTitle>Freelance</CardTitle>
-                        <CardText>Full Stack Engineer</CardText>
+                        <CardText>Frontend Developer</CardText>
                         <TagWrapper>
                             <Tag>WordPress</Tag>
                             <Tag>PHP</Tag>
