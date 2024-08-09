@@ -4,7 +4,7 @@ export const ExperienceObjOne = {
     lightText: false,
     lightTextDesc: true,
     topLine: 'Crafting Digital Solutions',
-    headline: 'My Professional Experience',
+    headline: 'Work Experience',
     description:
       'My experience includes collaborating closely with design teams to translate mockups into functional websites, ensuring pixel-perfect accuracy and optimal user experience across various devices and browsers.',
     buttonLabel: 'View Full Resume',
