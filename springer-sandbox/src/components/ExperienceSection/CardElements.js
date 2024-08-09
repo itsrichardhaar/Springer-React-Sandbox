@@ -94,4 +94,5 @@ export const Tag = styled.p`
     padding-right: .75rem;
     margin-top: 5px;
     text-decoration: none !important;
+    align-content: center;
 `;
