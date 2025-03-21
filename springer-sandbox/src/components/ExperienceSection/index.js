@@ -94,11 +94,11 @@ const ExperienceSection = ({
                             <Tag>React</Tag>
                             <Tag>Redux</Tag>
                             <Tag>node.js</Tag>
-                            <Tag>Three.js</Tag>
-                            <Tag>GSAP</Tag>
-                            <Tag>AWS</Tag>
-                            <Tag>PHP</Tag>
+                            <Tag>Postgres</Tag>
                             <Tag>Tailwind</Tag>
+                            <Tag>AWS</Tag>
+                            <Tag>JavaScript</Tag>
+                            <Tag>TypeScript</Tag>
                         </TagWrapper>
                     </CardInfo>
                 </CardItem>
