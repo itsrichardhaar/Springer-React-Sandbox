@@ -6,7 +6,7 @@ export const ExperienceObjOne = {
     topLine: 'Crafting Digital Solutions',
     headline: 'Work Experience',
     description:
-      'My experience includes collaborating closely with design teams to translate mockups into functional websites and applications, ensuring pixel-perfect accuracy and optimal user experience across various devices and browsers.',
+      'My experience includes collaborating closely with cross-functional teams, managing all web-based projects, and turning performance insights into strategic marketing decsions.',
     buttonLabel: 'View Full Resume',
     imgStart: true,
     img: require('../../images/svg-2.svg'),
