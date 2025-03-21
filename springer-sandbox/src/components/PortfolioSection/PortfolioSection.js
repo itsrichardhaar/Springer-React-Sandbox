@@ -2,6 +2,8 @@ import React from 'react';
 
 const PortfolioSection = () => {
   const projects = [
+    { year: 2025, title: 'Project Management App', made: 'Freelance', built: 'React, Postgres, AWS', link: 'https://main.dp9uus28slxd2.amplifyapp.com/' },
+    { year: 2025, title: 'Catawba Valley Community College', made: 'Springer Studios', built: 'PHP', link: 'https://cvccstagingsit.wpenginepowered.com/' },
     { year: 2024, title: 'Carteret Community College', made: 'Springer Studios', built: 'PHP', link: 'https://carteret.edu/' },
     { year: 2024, title: 'Vance-Granville Community College', made: 'Springer Studios', built: 'PHP', link: 'https://www.vgcc.edu' },
     { year: 2024, title: 'Personal Website V2', made: '', built: 'React', link: 'https://www.richardhaar.com/' },
