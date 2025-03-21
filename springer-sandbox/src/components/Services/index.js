@@ -28,16 +28,16 @@ const Services = () => {
         <ServicesCard as="a" href="https://www.studsvik.com" target="_blank" rel="noopener noreferrer">
           <ServicesArrow></ServicesArrow>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Custom PHP Theme Site</ServicesH2>
+          <ServicesH2>Custom PHP Theme</ServicesH2>
           <ServicesP>
-            A custom PHP multisite developed for Studsvik, a nuclear reactor software company based in Sweden. Utilizing Tailwind and JQuery as well as REST APIs accessing the Swedish stock market index.  
+            A custom WordPress multisite developed for Studsvik, a nuclear reactor software company based in Sweden. Utilizing Tailwind and JQuery as well as REST APIs accessing the Swedish stock market index.  
           </ServicesP>
         </ServicesCard>
-        <ServicesCard as="a" href="https://cfcc.edu/" target="_blank" rel="noopener noreferrer"tr>
+        <ServicesCard as="a" href="https://main.dp9uus28slxd2.amplifyapp.com/" target="_blank" rel="noopener noreferrer"tr>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>API Integration</ServicesH2>
+          <ServicesH2>Project Management Application</ServicesH2>
           <ServicesP>
-          Site developed for Cape Fear Community College. Built in PHP and integrated with REST APIs to sync and display course sequences from their software catalog. The site also utilizes Bootstrap and JQuery. 
+          A project management web application I built for our agency to test in our daily workflows. I engineered the application using React, TypeScript and PostgreSQL database. The application is deployed on AWS Amplify and EC2 instances. It utlizes AWS Cognito for user authentication and management.  
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
