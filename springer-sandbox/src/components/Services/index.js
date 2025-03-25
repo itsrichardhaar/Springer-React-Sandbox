@@ -37,7 +37,7 @@ const Services = () => {
           <ServicesIcon src={Icon2} />
           <ServicesH2>Project Management Application</ServicesH2>
           <ServicesP>
-          A project management web application I built for our agency to test in our daily workflows. I engineered the application using React, TypeScript and PostgreSQL database. The application is deployed on AWS Amplify and EC2 instances. It utlizes AWS Cognito for user authentication and management.  
+          A project management app built to streamline our agencies workflows. I engineered the application using React, TypeScript and PostgreSQL. The application is deployed on AWS Amplify and EC2 instances. It utlizes AWS Cognito for user authentication and management.  
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
