@@ -19,7 +19,7 @@ export const CardItem = styled.div`
   max-width: 400px; /* Adjust maximum width as needed */
   background: transparent;
   border-radius: 10px;
-  border: solid 2px #fff;
+  border: solid 2px rgba(255, 255, 255, 0.1);
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
