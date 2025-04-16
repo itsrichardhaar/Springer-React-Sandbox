@@ -113,3 +113,28 @@ export const BtnWrap = styled.div`
   margin-bottom: 20px;
 `;
 
+export const ImageWrapper = styled.div`
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 23, 42, 0.5); // dark bluish overlay
+    z-index: 1;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0;
+  }
+`;
+
