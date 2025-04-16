@@ -10,9 +10,9 @@ export const homeObjOne = {
     headline: 'Richard Haar',
     description:
       'I enjoy building dynamic, creative products from start to finish. I focus on engineering intuitive user-experiences that are highly scalable and simple to use.',
-    descriptionTwo: 'I’m a senior web developer and marketing analyst with 6 years of experience in digital marketing and brand development. I excel in cross-functional collaboration to provide innovative, high-quality products and services. My unique blend of technical expertise and analytical marketing insight enables me to enhance user-experience, optimize performance, and drive business growth across multi-channel marketing strategies and campaigns.',
+    descriptionTwo: 'I’m a senior web developer and marketing analyst with 6 years of experience in web application programming, digital marketing and brand development. I excel in cross-functional collaboration to provide innovative, high-quality products and services. My unique blend of technical expertise and analytical marketing insight enables me to enhance user-experience, optimize performance, and drive business growth across multi-channel marketing strategies and campaigns.',
     descriptionThree: <>
-    My main focus these days is building accessible user interfaces and experiences for our clients at{' '}
+    My primary focus is developing accessible, user-centric interfaces and experiences for clients at{' '}
     <Link class="body-link" to="//www.springerstudios.com/">Springer Studios</Link>. 
   </>,
     buttonLabel: 'Get In Touch',
