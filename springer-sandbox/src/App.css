@@ -41,6 +41,13 @@ a {
   border-left: 8px solid #fff;
 }
 
+/* Experience Card Arrows */
+
+.link-arrow {
+  color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s all ease;
+}
+
 /* Portfolio Table Section */
 .portfolio-section {
   margin: 0 auto;
