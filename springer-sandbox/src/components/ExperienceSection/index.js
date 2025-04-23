@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
+import MyResume from '../images/RichardHaar_25.pdf';
 import {
   InfoContainer,
   InfoWrapper,
@@ -64,7 +65,7 @@ const ExperienceSection = ({
                 <BtnWrap>
                   <Button
                     as='a'
-                    href="//docs.google.com/document/d/12KzNeQHEAoc3C2ueVT2HCNbATMh160SsUONvo9aPy0I/edit?usp=sharing" 
+                    href={MyResume}  
                     target='_blank'
                     rel='noopener noreferrer'
                     smooth={true}
