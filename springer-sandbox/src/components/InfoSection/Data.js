@@ -9,7 +9,7 @@ export const homeObjOne = {
     topLine: 'Senior Web Developer',
     headline: 'Richard Haar',
     description:
-      'I specialize in end-to-end development of dynamic, innovative products, with an emphasis on crafting intuitive, scalable user experiences that balance simplicity with high performance 🚀',
+      'I specialize in end-to-end development of dynamic, innovative products, with an emphasis on crafting intuitive, scalable user experiences that balance simplicity with high performance. 🚀',
     descriptionTwo: 'I’m a senior web developer and marketing analyst with 6 years of experience in web application programming, digital marketing and brand development. I excel in cross-functional collaboration to provide innovative, high-quality products and services. My unique blend of technical expertise and analytical marketing insight enables me to enhance user-experience, optimize performance, and drive business growth across multi-channel marketing strategies and campaigns.',
     descriptionThree: <>
     My primary focus is developing accessible, user-centric interfaces and experiences for clients at{' '}
