@@ -34,6 +34,10 @@ export const CardItem = styled.div`
   &:hover {
     background: rgba(30,41,59,.5);
   }
+  &:hover .link-arrow {
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.3s ease;
+  }
 
   @media screen and (max-width: 768px) {
     width: auto;
