@@ -114,6 +114,7 @@ const ExperienceSection = ({
                             <Tag>React</Tag>
                             <Tag>jQuery</Tag>
                             <Tag>WordPress</Tag>
+                            <Tag>Webflow</Tag>
                             <Tag>PHP</Tag>
                             <Tag>MySQL</Tag>
                         </TagWrapper>
