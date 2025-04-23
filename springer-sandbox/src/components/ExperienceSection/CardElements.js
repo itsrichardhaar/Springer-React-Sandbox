@@ -29,6 +29,7 @@ export const CardItem = styled.div`
   &:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: solid 2px rgba(255, 255, 255, 1);
   }
   &:hover {
     background: rgba(30,41,59,.5);
