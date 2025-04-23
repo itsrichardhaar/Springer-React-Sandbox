@@ -57,6 +57,7 @@ export const ServicesCard = styled.div`
     cursor: pointer;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     background: rgba(30, 41, 59, 0.5);
+    border: solid 2px rgba(255, 255, 255, 1);
   }
 `;
 
