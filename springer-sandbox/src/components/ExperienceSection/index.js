@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
-import MyResume from '../images/RichardHaar_25.pdf';
+import MyResume from '../../images/RichardHaar_25.pdf';
 import {
   InfoContainer,
   InfoWrapper,
