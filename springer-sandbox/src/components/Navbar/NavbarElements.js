@@ -2,10 +2,11 @@ import { Link as LinkS } from 'react-scroll';
 import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const Nav = styled.nav`
+export const Nav = styled.nav
 
-    background: ${({ scrollNav }) => (scrollNav ? '#101522' : 'rgb(15, 23, 42)')};
+    background: ${({ scrollNav }) => (scrollNav ? '#101522' : '#101522')};
     height: 80px;
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +14,6 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 10;
-    transition: background 0.3s ease;
     
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
@@ -22,9 +22,9 @@ export const Nav = styled.nav`
     @media screen and (max-width: 768px) {
         margin-top: 0px;
     }
-`;
+;
 
-export const NavbarContainer = styled.div` 
+export const NavbarContainer = styled.div 
 
     display: flex;
     justify-content: space-between;
@@ -33,9 +33,9 @@ export const NavbarContainer = styled.div`
     width: 100%;
     padding: 0 24px;
     max-width: 1100px;
-`;
+;
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkR)
 
     color: #2a302f;
     justify-self: flex-start;
@@ -46,9 +46,9 @@ export const NavLogo = styled(LinkR)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
-`; 
+; 
 
-export const MobileIcon = styled.div`
+export const MobileIcon = styled.div
     display: none;
     
     @media screen and (max-width: 768px) {
@@ -61,9 +61,9 @@ export const MobileIcon = styled.div`
         cursor: pointer;
         color: rgb(47, 220, 120);
     }
-`;
+;
 
-export const NavMenu = styled.ul`
+export const NavMenu = styled.ul
     display: flex;
     align-items: center;
     list-style: none;
@@ -73,13 +73,13 @@ export const NavMenu = styled.ul`
     @media screen and (max-width: 768px) {
         display: none;
     }
-`;
+;
 
-export const NavItem = styled.li`
+export const NavItem = styled.li
     height: 80px;
-`;
+;
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkS)
     color: #fff;
     display: flex;
     align-items: center;
@@ -95,4 +95,4 @@ export const NavLinks = styled(LinkS)`
         border-bottom: 3px solid #2FDC78;
         transition: 0.1s all ease;
     }
-`;
+;
