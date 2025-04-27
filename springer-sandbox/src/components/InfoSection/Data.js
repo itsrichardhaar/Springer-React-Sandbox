@@ -15,7 +15,7 @@ export const homeObjOne = {
     My primary focus is developing accessible, user-centric interfaces and experiences for clients at{' '}
     <Link class="body-link" to="//www.springerstudios.com/">Springer Studios</Link>. 
   </>,
-    buttonLabel: 'Get In Touch',
+    buttonLabel: 'Connect With Me',
     imgStart: false,
     img: require('../../images/svg-1.svg'),
     alt: 'lets build',
