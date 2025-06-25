@@ -28,9 +28,9 @@ const Services = () => {
         <ServicesCard as="a" href="https://www.studsvik.com" target="_blank" rel="noopener noreferrer">
           <ServicesArrow></ServicesArrow>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Custom PHP Theme</ServicesH2>
+          <ServicesH2>Custom WordPress Theme</ServicesH2>
           <ServicesP>
-            A custom WordPress multisite developed for Studsvik, a nuclear reactor software company based in Sweden. Utilizing Tailwind and JQuery as well as REST APIs accessing the Swedish stock market index.  
+            A custom WordPress multisite developed for Studsvik, a global provider of vendor-independent, state-of-the-art nuclear fuel management software and engineering services.  
           </ServicesP>
         </ServicesCard>
         <ServicesCard as="a" href="https://main.dp9uus28slxd2.amplifyapp.com/" target="_blank" rel="noopener noreferrer"tr>
