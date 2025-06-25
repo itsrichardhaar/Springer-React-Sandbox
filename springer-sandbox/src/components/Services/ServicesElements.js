@@ -46,6 +46,7 @@ export const ServicesCard = styled.div`
   align-items: left;
   border-radius: 10px;
   max-height: 440px;
+  height: 405px;
   padding: 0px;
   border: solid 2px rgba(255, 255, 255, 0.1);
   transition: all 0.2s ease-in-out;
